@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Proyecto_Movil</string>
+    <string name="tv_correo">Email</string>
+    <string name="tv_clave">Email</string>
+
+
+    <!-- PAGINA INICIO-->
+    <string name="bt_inicio_sesion">Inicio Sesión</string>
+    <string name="bt_registrar">Registrarse</string>
+    <string name="tv_titulo_inicio">BUSTATION</string>
+    <string name="tv_slogan_inicio">¡Planea con exactitud la hora de tu próximo viaje!</string>
+    <string name="tv_texto_inicio">Ahorra tiempo conociendo la ruta de los buses públicos en Costa Rica. La aplicación le permitirá saber en tiempo real la ubicación del bus que usted necesita saber. ¡Unase a nosotros!</string>
 </resources>
