@@ -10,4 +10,10 @@
     <string name="tv_titulo_inicio">BUSTATION</string>
     <string name="tv_slogan_inicio">¡Planea con exactitud la hora de tu próximo viaje!</string>
     <string name="tv_texto_inicio">Ahorra tiempo conociendo la ruta de los buses públicos en Costa Rica. La aplicación le permitirá saber en tiempo real la ubicación del bus que usted necesita saber. ¡Unase a nosotros!</string>
+
+    <!--PAGINA DE INICIO DE SESIÓN-->
+    <string name="bt_inicio_sesionMayuscula">INICIO DE SESIÓN</string>
+    <string name="bt_iniciar_sesion">Iniciar sesión</string>
+    <string name="bt_registrate">Registrate</string>
+    <string name="tv_no_tienes_cuenta">No tienes cuenta?</string>
 </resources>
