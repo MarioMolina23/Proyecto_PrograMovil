@@ -2,24 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tv_titulo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp"
     tools:context=".MainActivity"
-    android:background="@drawable/fondo_degradado">
+    android:padding="20dp"
+    android:background="@color/cardview_dark_background">
+    <!--android:background="@drawable/fondo_degradado"-->
+
+    <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
         <Button
             android:id="@+id/bt_inicio"
-            android:layout_width="169dp"
-            android:layout_height="56dp"
+            android:layout_width="152dp"
+            android:layout_height="51dp"
             android:layout_marginStart="10dp"
-            android:layout_marginBottom="70dp"
+            android:layout_marginBottom="10dp"
             android:text="@string/bt_inicio_sesion"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#000000"
@@ -27,21 +33,25 @@
             app:cornerRadius="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_texto"
             app:rippleColor="#2B1717" />
 
         <Button
             android:id="@+id/bt_register"
-            android:layout_width="162dp"
-            android:layout_height="56dp"
+            android:layout_width="146dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="170dp"
             android:layout_marginEnd="10dp"
-            android:layout_marginBottom="70dp"
-            android:text="@string/bt_inicio_sesion"
+            android:layout_marginBottom="10dp"
+            android:text="@string/bt_registrar"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#000000"
             android:textSize="20sp"
             app:cornerRadius="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/bt_inicio"
+            app:layout_constraintTop_toBottomOf="@+id/tv_texto"
             app:rippleColor="#2B1717"
             tools:text="@string/bt_registrar" />
 
@@ -55,17 +65,18 @@
             android:textColor="#CF9E11"
             android:textSize="34sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            app:layout_constraintStart_toStartOf="parent"/>
 
         <TextView
             android:id="@+id/tv_slogan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="343dp"
+            android:layout_height="32dp"
             android:layout_marginTop="2dp"
             android:fontFamily="sans-serif-black"
             android:text="@string/tv_slogan_inicio"
+            android:textAlignment="center"
             android:textColor="#CF9E11"
+            android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_titulo_inicio" />
@@ -77,22 +88,15 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="70dp"
             android:layout_marginEnd="30dp"
+            android:layout_marginBottom="150dp"
             android:fontFamily="sans-serif-condensed-medium"
             android:text="@string/tv_texto_inicio"
             android:textAlignment="center"
             android:textColor="#CF9E11"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_slogan" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="373dp"
-            android:layout_height="270dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@drawable/foto_pantalla_inicio" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
