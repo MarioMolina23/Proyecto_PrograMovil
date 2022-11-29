@@ -16,6 +16,10 @@
     <string name="bt_registrate">Registrate</string>
     <string name="tv_no_tienes_cuenta">No tienes cuenta?</string>
     <string name="tv_inicio_sesionMayuscula">INICIO DE SESIÓN</string>
-    <string name="ph_correo">    Correo</string>
-    <string name="ph_contrasena">    Contraseña</string>
+    <string name="ph_correo">Correo</string>
+    <string name="ph_contrasena">Contraseña</string>
+
+    <!--PAGINA DE REGISTRARSE-->
+    <string name="tv_crearcuenta">CREAR CUENTA</string>
+    <string name="bt_cancelar">Cancelar</string>
 </resources>

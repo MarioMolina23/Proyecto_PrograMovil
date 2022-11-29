@@ -5,18 +5,18 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class InicioSesion : AppCompatActivity() {
+class Registrarse : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_inicio_sesion)
+        setContentView(R.layout.activity_registrarse)
 
-        bt_registrase();
+        bt_cancelar();
     }
 
-    fun bt_registrase(){
-        val button = findViewById<Button>(R.id.bt_registrate)
+    fun bt_cancelar(){
+        val button = findViewById<Button>(R.id.bt_cancelar)
         button.setOnClickListener{
-            val intent = Intent (this,Registrarse::class.java)
+            val intent = Intent (this,MainActivity::class.java)
             startActivity(intent)
         }
     }

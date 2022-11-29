@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        initEvents()
+        bt_iniciar_sesion();
+        bt_registrarse();
 
         /*Se llaman las imagenes desde la Web para cargarlas en el home de la app*/
         val carousel: ImageCarousel = findViewById(R.id.tv_titulo)
@@ -26,10 +27,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     //Evento para abrir la pantalla de inicio de Sesion
-    fun initEvents(){
+    fun bt_iniciar_sesion(){
         val button = findViewById<Button>(R.id.bt_inicio)
         button.setOnClickListener{
             val intent = Intent (this,InicioSesion::class.java)
+            startActivity(intent)
+        }
+    }
+
+    //Evento para abrir la pantalla de registrarse
+    fun bt_registrarse(){
+        val button = findViewById<Button>(R.id.bt_register)
+        button.setOnClickListener{
+            val intent = Intent (this,Registrarse::class.java)
             startActivity(intent)
         }
     }
