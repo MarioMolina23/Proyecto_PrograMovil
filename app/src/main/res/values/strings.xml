@@ -30,10 +30,14 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-
     <!--Página Home-->
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
-    <string name="cerrar_sesion">CERRAR SESION</string>
+    <string name="contacto">Contacto</string>
+    <string name="historia">Historia</string>
+    <string name="terminos_uso">Términos de uso</string>
+    <string name="equipo">Equipo</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
 </resources>

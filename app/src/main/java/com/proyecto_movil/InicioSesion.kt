@@ -53,7 +53,7 @@ class InicioSesion : AppCompatActivity() {
 
     private fun actualiza(user: FirebaseUser?) {
         if (user != null) {
-            val intent = Intent(this, Home::class.java)
+            val intent = Intent(this, Main_Home::class.java)
             startActivity(intent)
         }
     }

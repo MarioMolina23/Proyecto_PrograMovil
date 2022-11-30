@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_contacto"
+        android:orderInCategory="100"
+        android:title="@string/contacto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_historia"
+        android:orderInCategory="100"
+        android:title="@string/historia"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_terminos_uso"
+        android:orderInCategory="100"
+        android:title="@string/terminos_uso"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_equipo"
+        android:orderInCategory="100"
+        android:title="@string/equipo"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_acerca_de"
+        android:orderInCategory="100"
+        android:title="@string/acerca_de"
+        app:showAsAction="never" />
+
     <item
         android:id="@+id/cerrar_session"
         android:orderInCategory="100"
