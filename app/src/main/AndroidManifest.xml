@@ -15,6 +15,15 @@
         android:theme="@style/Theme.Proyecto_Movil"
         tools:targetApi="31">
         <activity
+            android:name=".Home"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Proyecto_Movil.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Registrarse"
             android:exported="false">
             <meta-data

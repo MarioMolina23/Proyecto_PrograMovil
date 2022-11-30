@@ -99,7 +99,7 @@
             android:inputType="textEmailAddress"
             android:text="@string/ph_correo"
             android:textColor="@color/white"
-            android:textSize="24sp"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_inicio_Sesion" />
@@ -112,10 +112,10 @@
             android:background="@color/colorDos"
             android:ems="10"
             android:fontFamily="sans-serif-black"
-            android:inputType="textEmailAddress"
+            android:inputType="textPassword"
             android:text="@string/ph_contrasena"
             android:textColor="@color/white"
-            android:textSize="24sp"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inicio_correo" />

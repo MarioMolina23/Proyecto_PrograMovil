@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "645560817375",
+    "project_id": "proyecto-programovil-b988e",
+    "storage_bucket": "proyecto-programovil-b988e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645560817375:android:585733aca992c7b8dffb6a",
+        "android_client_info": {
+          "package_name": "com.proyecto_movil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645560817375-8m2u7tk74gkm8ucb7j9mnbsvtnb1d69m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3QNC8xGig7W0CQOxPErTv16GVpDCZtKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645560817375-8m2u7tk74gkm8ucb7j9mnbsvtnb1d69m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
