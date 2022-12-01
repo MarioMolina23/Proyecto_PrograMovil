@@ -40,4 +40,13 @@
     <string name="equipo">Equipo</string>
     <string name="acerca_de">Acerca de</string>
     <string name="cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- Pagina historia-->
+    <string name="tv_historia">La App BU-STATION nace gracias a la idea de 3 estudiantes de la Universidad Fidélitas en Costa Rica, donde en un proyecto a realizar en uno de sus cursos, se proponen diseñar la idea de mostrar la ruta de los buses en tiempo real, con el fin de ayudar a los usuario a ahorrarse tiempos de espera y así ayudarlos a tener un mejor uso de su tiempo.\n\nA raíz de esta idea, este grupo de personas, trabajan en el diseño de la aplicación por más de tres meses, donde compartiendo sus ideas y asesorados por una profesora, logran culminar este objetivo que llegó a traer un suspiro a todas aquellas personas.</string>
+    <string name="tv_historia_titulo">Historia</string>
+
+    <!-- Pagina terminos-->
+    <string name="tv_terminos">El titular se reserva el derecho de realizar cualquier tipo de modificación en el sitio web en cualquier momento y sin previo aviso, el usuario acepta dichas modificaciones.\n\nLa presente describe los términos y condiciones aplicables al uso del contenido, productos y/o servicios del sitio web y la app de &quot;BU-STATION&quot;. Para hacer uso del contenido, productos y/o servicios del sitio web el usuario deberá sujetarse a los presentes términos y condiciones.\n</string>
+    <string name="tv_terminos_titulo">Términos de Uso</string>
+
 </resources>

@@ -26,19 +26,19 @@ class Main_Home : AppCompatActivity() {
                 true
             }
             R.id.menu_acerca_de -> {
-                startActivity(Intent(this, Contacto::class.java))
+                startActivity(Intent(this, AcercaDe::class.java))
                 true
             }
             R.id.menu_equipo -> {
-                startActivity(Intent(this, Contacto::class.java))
+                startActivity(Intent(this, Equipo::class.java))
                 true
             }
             R.id.menu_historia -> {
-                startActivity(Intent(this, Contacto::class.java))
+                startActivity(Intent(this, Historia::class.java))
                 true
             }
             R.id.menu_terminos_uso -> {
-                startActivity(Intent(this, Contacto::class.java))
+                startActivity(Intent(this, Terminos::class.java))
                 true
             }
             R.id.cerrar_session -> {
