@@ -5,14 +5,55 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import androidx.viewpager2.widget.ViewPager2
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import com.proyecto_movil.databinding.ActivityEquipoBinding
+import me.relex.circleindicator.CircleIndicator3
 
 class Equipo : AppCompatActivity() {
+
+    private var titlesList = mutableListOf<String>()
+    private var descList = mutableListOf<String>()
+    private var imagesList = mutableListOf<Int>()
+    private lateinit var binding:ActivityEquipoBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_equipo)
+        binding = ActivityEquipoBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        postToList()
+
+        binding.viewPager2.adapter = ViewPagerAdapter(titlesList,descList,imagesList)
+        binding.viewPager2.orientation = ViewPager2.ORIENTATION_HORIZONTAL
+
+        val indicator = findViewById<CircleIndicator3>(R.id.indicator)
+        indicator.setViewPager(binding.viewPager2)
     }
+
+    private fun addToList (title: String, description: String, image: Int){
+        titlesList.add(title)
+        descList.add(description)
+        imagesList.add(image)
+    }
+
+    private fun postToList(){
+        for (i in 1..2){
+            if (i == 1) {
+                addToList(
+                    "Mario Molina",
+                    "Vecino de Guadalupe, San José. Está cursando su segundo año de carrera en íngenieria en sistemas. Le gusta mucho todo lo que tiene que ver con tecnología, porque entiende que es un medio que ayuda al ser humano a tener una mejor calidad de vida y también a ser mejor persona.",
+                    R.drawable.mario
+            )}else{
+                addToList(
+                    "Christian Ortega",
+                    "Estudiante de último año de Ingeniería en Sistemas, 23 años, Moravia, San José. Le gusta mucho aprender y manipular tecnologías nuevas, muy creativo y relajado, le gusta mucho el diseño, la programación y todo lo que tiene que ver con el contenido audiovisual.",
+                    R.drawable.christian
+                )}
+        }
+    }
+
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.home, menu)
         return true

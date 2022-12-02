@@ -1,17 +1,17 @@
 <resources>
+    <!--Generales-->
     <string name="app_name">BUSTATION</string>
     <string name="tv_correo">Email</string>
     <string name="tv_clave">Email</string>
+    <string name="tv_titulo_inicio">BUSTATION</string>
 
-
-    <!-- PAGINA INICIO-->
+    <!--Página de Inicio-->
     <string name="bt_inicio_sesion">Inicio Sesión</string>
     <string name="bt_registrar">Registrarse</string>
-    <string name="tv_titulo_inicio">BUSTATION</string>
     <string name="tv_slogan_inicio">¡Planea con exactitud la hora de tu próximo viaje!</string>
     <string name="tv_texto_inicio">Ahorra tiempo conociendo la ruta de los buses públicos en Costa Rica. La aplicación le permitirá saber en tiempo real la ubicación del bus que usted necesita saber. ¡Unase a nosotros!</string>
 
-    <!--PAGINA DE INICIO DE SESIÓN-->
+    <!--Página de inicio de sesión-->
     <string name="bt_iniciar_sesion">Iniciar sesión</string>
     <string name="bt_registrate">Registrate</string>
     <string name="tv_no_tienes_cuenta">No tienes cuenta?</string>
@@ -19,7 +19,7 @@
     <string name="ph_correo">Correo</string>
     <string name="ph_contrasena">Contraseña</string>
 
-    <!--PAGINA DE REGISTRARSE-->
+    <!--Página de registrarse-->
     <string name="tv_crearcuenta">CREAR CUENTA</string>
     <string name="bt_cancelar">Cancelar</string>
     <string name="title_activity_home">Home</string>
@@ -41,12 +41,22 @@
     <string name="acerca_de">Acerca de</string>
     <string name="cerrar_sesion">Cerrar Sesión</string>
 
-    <!-- Pagina historia-->
+    <!-- Página historia-->
     <string name="tv_historia">La App BU-STATION nace gracias a la idea de 3 estudiantes de la Universidad Fidélitas en Costa Rica, donde en un proyecto a realizar en uno de sus cursos, se proponen diseñar la idea de mostrar la ruta de los buses en tiempo real, con el fin de ayudar a los usuario a ahorrarse tiempos de espera y así ayudarlos a tener un mejor uso de su tiempo.\n\nA raíz de esta idea, este grupo de personas, trabajan en el diseño de la aplicación por más de tres meses, donde compartiendo sus ideas y asesorados por una profesora, logran culminar este objetivo que llegó a traer un suspiro a todas aquellas personas.</string>
     <string name="tv_historia_titulo">Historia</string>
 
-    <!-- Pagina terminos-->
+    <!-- Página términos-->
     <string name="tv_terminos">El titular se reserva el derecho de realizar cualquier tipo de modificación en el sitio web en cualquier momento y sin previo aviso, el usuario acepta dichas modificaciones.\n\nLa presente describe los términos y condiciones aplicables al uso del contenido, productos y/o servicios del sitio web y la app de &quot;BU-STATION&quot;. Para hacer uso del contenido, productos y/o servicios del sitio web el usuario deberá sujetarse a los presentes términos y condiciones.\n</string>
     <string name="tv_terminos_titulo">Términos de Uso</string>
 
+    <!-- Página contacto-->
+    <string name="tv_contacto">El titular se reserva el derecho de realizar cualquier tipo de modificación en el sitio web en cualquier momento y sin previo aviso, el usuario acepta dichas modificaciones.\n\nLa presente describe los términos y condiciones aplicables al uso del contenido, productos y/o servicios del sitio web y la app de &quot;BU-STATION&quot;. Para hacer uso del contenido, productos y/o servicios del sitio web el usuario deberá sujetarse a los presentes términos y condiciones.\n</string>
+    <string name="tv_contacto_titulo">Contactenos</string>
+    <string name="tv_contacto_nombre">Nombre:</string>
+    <string name="tv_contacto_comentario">Comentario:</string>
+    <string name="tv_contacto_enviar">ENVIAR</string>
+
+    <!-- Página equipo-->
+    <string name="tv_desc_Mario">Vecino de Guadalupe, San José. Está cursando su segundo año de carrera en íngenieria en sistemas. Le gusta mucho todo lo que tiene que ver con tecnología, porque entiende que es un medio que ayuda al ser humano a tener una mejor calidad de vida y también a ser mejor persona</string>
+    <string name="tv_desc_Christian">ENVIAR</string>
 </resources>

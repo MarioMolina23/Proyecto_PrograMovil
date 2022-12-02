@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
 }
 
 //Enlace directo entre la vista (xmls) y el código
@@ -57,5 +59,9 @@ dependencies {
     //CarouselView
     implementation 'me.relex:circleindicator:2.1.6'
     implementation 'org.imaginativeworld.whynotimagecarousel:whynotimagecarousel:1.2.1'
+
+    //CarouselView Circle
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    implementation 'me.relex:circleindicator:2.1.6'
 
 }
