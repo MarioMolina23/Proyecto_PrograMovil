@@ -20,6 +20,10 @@ class AcercaDe : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
+            R.id.menu_home -> {
+                startActivity(Intent(this, Main_Home::class.java))
+                true
+            }
             R.id.menu_contacto -> {
                 startActivity(Intent(this, Contacto::class.java))
                 true
@@ -38,6 +42,18 @@ class AcercaDe : AppCompatActivity() {
             }
             R.id.menu_terminos_uso -> {
                 startActivity(Intent(this, Terminos::class.java))
+                true
+            }
+            R.id.bt_terminos -> {
+                startActivity(Intent(this, Terminos::class.java))
+                true
+            }
+            R.id.bt_historia -> {
+                startActivity(Intent(this, Historia::class.java))
+                true
+            }
+            R.id.bt_equipo -> {
+                startActivity(Intent(this, Equipo::class.java))
                 true
             }
             R.id.cerrar_session -> {

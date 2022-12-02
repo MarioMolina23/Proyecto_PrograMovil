@@ -43,12 +43,18 @@ class Equipo : AppCompatActivity() {
             if (i == 1) {
                 addToList(
                     "Mario Molina",
-                    "Vecino de Guadalupe, San José. Está cursando su segundo año de carrera en íngenieria en sistemas. Le gusta mucho todo lo que tiene que ver con tecnología, porque entiende que es un medio que ayuda al ser humano a tener una mejor calidad de vida y también a ser mejor persona.",
+                    "Vecino de Guadalupe, San José. Está cursando su segundo año de carrera " +
+                            "en íngenieria en sistemas. Le gusta mucho todo lo que tiene que ver con " +
+                            "tecnología, porque entiende que es un medio que ayuda al ser humano a tener " +
+                            "una mejor calidad de vida y también a ser mejor persona.",
                     R.drawable.mario
             )}else{
                 addToList(
                     "Christian Ortega",
-                    "Estudiante de último año de Ingeniería en Sistemas, 23 años, Moravia, San José. Le gusta mucho aprender y manipular tecnologías nuevas, muy creativo y relajado, le gusta mucho el diseño, la programación y todo lo que tiene que ver con el contenido audiovisual.",
+                    "Estudiante de último año de Ingeniería en Sistemas, 23 años, Moravia, " +
+                            "San José. Le gusta mucho aprender y manipular tecnologías nuevas, muy " +
+                            "creativo y relajado, le gusta mucho el diseño, la programación y todo lo " +
+                            "que tiene que ver con el contenido audiovisual.",
                     R.drawable.christian
                 )}
         }
@@ -61,6 +67,10 @@ class Equipo : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
+            R.id.menu_home -> {
+                startActivity(Intent(this, Main_Home::class.java))
+                true
+            }
             R.id.menu_contacto -> {
                 startActivity(Intent(this, Contacto::class.java))
                 true

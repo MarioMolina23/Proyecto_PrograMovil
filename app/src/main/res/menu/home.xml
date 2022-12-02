@@ -4,6 +4,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="HOME" />
+
+    <item
+        android:id="@+id/menu_fav"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:orderInCategory="100"
+        android:title="STAR"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_map"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:orderInCategory="100"
+        android:title="MAP"
+        app:showAsAction="always" />
+
+    <item
         android:id="@+id/menu_contacto"
         android:orderInCategory="100"
         android:title="@string/contacto"

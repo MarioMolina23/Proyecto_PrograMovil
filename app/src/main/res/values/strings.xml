@@ -58,5 +58,7 @@
 
     <!-- Página equipo-->
     <string name="tv_desc_Mario">Vecino de Guadalupe, San José. Está cursando su segundo año de carrera en íngenieria en sistemas. Le gusta mucho todo lo que tiene que ver con tecnología, porque entiende que es un medio que ayuda al ser humano a tener una mejor calidad de vida y también a ser mejor persona</string>
-    <string name="tv_desc_Christian">ENVIAR</string>
+    <string name="tv_desc_Christian">Editar...</string>
+    <string name="tv_equipo_titulo">Equipo</string>
+
 </resources>
