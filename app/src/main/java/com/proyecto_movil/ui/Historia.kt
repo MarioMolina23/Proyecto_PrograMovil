@@ -1,4 +1,4 @@
-package com.proyecto_movil
+package com.proyecto_movil.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,17 +7,17 @@ import android.view.Menu
 import android.view.MenuItem
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import com.proyecto_movil.R
 
-class Contacto : AppCompatActivity() {
+class Historia : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_contacto)
+        setContentView(R.layout.activity_historia)
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.home, menu)
         return true
     }
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.menu_home -> {

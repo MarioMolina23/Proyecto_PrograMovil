@@ -1,4 +1,4 @@
-package com.proyecto_movil
+package com.proyecto_movil.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -11,6 +11,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import com.proyecto_movil.R
 import com.proyecto_movil.databinding.ActivityInicioSesionBinding
 
 class InicioSesion : AppCompatActivity() {
@@ -67,7 +68,7 @@ class InicioSesion : AppCompatActivity() {
     fun bt_registrase(){
         val button = findViewById<Button>(R.id.bt_registrate)
         button.setOnClickListener{
-            val intent = Intent (this,Registrarse::class.java)
+            val intent = Intent (this, Registrarse::class.java)
             startActivity(intent)
         }
     }

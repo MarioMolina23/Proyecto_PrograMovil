@@ -6,6 +6,8 @@ plugins {
     id 'kotlin-parcelize'
 }
 
+apply plugin: 'kotlin-kapt'
+
 //Enlace directo entre la vista (xmls) y el código
 android.buildFeatures.viewBinding true
 
@@ -63,5 +65,10 @@ dependencies {
     //CarouselView Circle
     implementation "androidx.viewpager2:viewpager2:1.0.0"
     implementation 'me.relex:circleindicator:2.1.6'
+
+    //Para poder utilizar anotaciones @Entity y uso de SQLlite
+    annotationProcessor 'androidx.room:room-compiler:2.4.3'
+    kapt "androidx.room:room-compiler:2.4.3"
+    implementation 'androidx.room:room-ktx:2.4.3'
 
 }

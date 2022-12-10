@@ -1,4 +1,4 @@
-package com.proyecto_movil
+package com.proyecto_movil.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,9 @@ import android.view.MenuItem
 import androidx.viewpager2.widget.ViewPager2
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import com.proyecto_movil.R
 import com.proyecto_movil.databinding.ActivityEquipoBinding
+import com.proyecto_movil.viewadapter.ViewPagerAdapter
 import me.relex.circleindicator.CircleIndicator3
 
 class Equipo : AppCompatActivity() {

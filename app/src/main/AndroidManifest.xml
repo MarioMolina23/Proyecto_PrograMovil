@@ -15,42 +15,42 @@
         android:theme="@style/Theme.Proyecto_Movil"
         tools:targetApi="31">
         <activity
-            android:name=".AcercaDe"
+            android:name=".ui.AcercaDe"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Equipo"
+            android:name=".ui.Equipo"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Terminos"
+            android:name=".ui.Terminos"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Historia"
+            android:name=".ui.Historia"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Contacto"
+            android:name=".ui.Contacto"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Main_Home"
+            android:name=".ui.Main_Home"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -66,14 +66,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Registrarse"
+            android:name=".ui.Registrarse"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".InicioSesion"
+            android:name=".ui.InicioSesion"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

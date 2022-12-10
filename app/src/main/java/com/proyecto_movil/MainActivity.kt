@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.proyecto_movil.ui.InicioSesion
+import com.proyecto_movil.ui.Registrarse
 import org.imaginativeworld.whynotimagecarousel.CarouselItem
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
 
@@ -30,7 +32,7 @@ class MainActivity : AppCompatActivity() {
     fun bt_iniciar_sesion(){
         val button = findViewById<Button>(R.id.bt_inicio)
         button.setOnClickListener{
-            val intent = Intent (this,InicioSesion::class.java)
+            val intent = Intent (this, InicioSesion::class.java)
             startActivity(intent)
         }
     }
@@ -39,7 +41,7 @@ class MainActivity : AppCompatActivity() {
     fun bt_registrarse(){
         val button = findViewById<Button>(R.id.bt_register)
         button.setOnClickListener{
-            val intent = Intent (this,Registrarse::class.java)
+            val intent = Intent (this, Registrarse::class.java)
             startActivity(intent)
         }
     }
