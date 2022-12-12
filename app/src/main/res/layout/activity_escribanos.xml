@@ -74,17 +74,30 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_facebook" />
 
     <TextView
-        android:id="@+id/tv_telefono"
+        android:id="@+id/tv_whatsapp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="60dp"
-        android:text="@string/bt_llamar"
+        android:text="+506 2206 8600"
         android:textColor="#FFDD00"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/bt_llamada"
         app:layout_constraintTop_toBottomOf="@+id/tv_web" />
+
+    <TextView
+        android:id="@+id/tv_llamada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="60dp"
+        android:text="+506 8606 8600"
+        android:textColor="#FFDD00"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_llamada"
+        app:layout_constraintTop_toBottomOf="@+id/tv_whatsapp" />
 
     <ImageButton
         android:id="@+id/bt_instagram"
@@ -120,7 +133,7 @@
         app:srcCompat="@drawable/icon_web" />
 
     <ImageButton
-        android:id="@+id/bt_llamada"
+        android:id="@+id/bt_whatsapp"
         android:layout_width="52dp"
         android:layout_height="42dp"
         android:layout_marginStart="70dp"
@@ -128,6 +141,17 @@
         android:background="#00426E"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_web"
+        app:srcCompat="@drawable/icon_whatsapp" />
+
+    <ImageButton
+        android:id="@+id/bt_llamada"
+        android:layout_width="52dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:background="#00426E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_whatsapp"
         app:srcCompat="@drawable/icon_telef" />
 
     <Button
@@ -135,6 +159,7 @@
         android:layout_width="151dp"
         android:layout_height="59dp"
         android:text="@string/bt_escribanos"
+        android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

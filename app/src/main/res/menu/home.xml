@@ -55,6 +55,12 @@
         app:showAsAction="never" />
 
     <item
+        android:id="@+id/internacionalizacion"
+        android:orderInCategory="100"
+        android:title="@string/lenguaje"
+        app:showAsAction="never" />
+
+    <item
         android:id="@+id/cerrar_session"
         android:orderInCategory="100"
         android:title="@string/cerrar_sesion"
