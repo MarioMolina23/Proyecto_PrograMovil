@@ -61,4 +61,11 @@
     <string name="tv_desc_Christian">Editar...</string>
     <string name="tv_equipo_titulo">Equipo</string>
 
+    <!--Página escribanos-->
+    <string name="bt_escribanos">Escribanos</string>
+    <string name="bt_facebook">BU-STATION</string>
+    <string name="bt_instagram">bu-station_cr</string>
+    <string name="bt_web">www.bu-station.com</string>
+    <string name="bt_llamar">+506 2222 2222</string>
+
 </resources>

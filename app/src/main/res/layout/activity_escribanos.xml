@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Escribanos">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00426E"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-76dp"
+        tools:layout_editor_absoluteY="102dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:text="BUSTATION"
+        android:textColor="#FFDD00"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+    <TextView
+        android:id="@+id/tv_instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="70dp"
+        android:text="@string/bt_instagram"
+        android:textColor="#FFDD00"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_instagram"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="70dp"
+        android:text="@string/bt_facebook"
+        android:textColor="#FFDD00"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_facebook"
+        app:layout_constraintTop_toBottomOf="@+id/tv_instagram" />
+
+    <TextView
+        android:id="@+id/tv_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/bt_web"
+        android:textColor="#FFDD00"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_web"
+        app:layout_constraintTop_toBottomOf="@+id/tv_facebook" />
+
+    <TextView
+        android:id="@+id/tv_telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/bt_llamar"
+        android:textColor="#FFDD00"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_llamada"
+        app:layout_constraintTop_toBottomOf="@+id/tv_web" />
+
+    <ImageButton
+        android:id="@+id/bt_instagram"
+        android:layout_width="52dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
+        android:background="#00426E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_instagram" />
+
+    <ImageButton
+        android:id="@+id/bt_facebook"
+        android:layout_width="52dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:background="#00426E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_instagram"
+        app:srcCompat="@drawable/icon_facebook" />
+
+    <ImageButton
+        android:id="@+id/bt_web"
+        android:layout_width="52dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:background="#00426E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_facebook"
+        app:srcCompat="@drawable/icon_web" />
+
+    <ImageButton
+        android:id="@+id/bt_llamada"
+        android:layout_width="52dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:background="#00426E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_web"
+        app:srcCompat="@drawable/icon_telef" />
+
+    <Button
+        android:id="@+id/bt_escribanos"
+        android:layout_width="151dp"
+        android:layout_height="59dp"
+        android:text="@string/bt_escribanos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+</androidx.constraintlayout.widget.ConstraintLayout>

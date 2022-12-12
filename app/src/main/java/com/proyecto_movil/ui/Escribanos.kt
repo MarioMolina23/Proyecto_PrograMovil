@@ -9,10 +9,10 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.proyecto_movil.R
 
-class Terminos : AppCompatActivity() {
+class Escribanos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_terminos)
+        setContentView(R.layout.activity_escribanos)
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.home, menu)
@@ -51,5 +51,9 @@ class Terminos : AppCompatActivity() {
                 true
             } else -> super.onOptionsItemSelected(item)
         }
+        /*R.id.bt_escribanos -> {
+            startActivity(Intent(this, Contacto::class.java))
+            true
+        }*/
     }
 }

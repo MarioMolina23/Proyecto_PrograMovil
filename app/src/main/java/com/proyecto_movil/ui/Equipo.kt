@@ -74,7 +74,7 @@ class Equipo : AppCompatActivity() {
                 true
             }
             R.id.menu_contacto -> {
-                startActivity(Intent(this, Contacto::class.java))
+                startActivity(Intent(this, Escribanos::class.java))
                 true
             }
             R.id.menu_acerca_de -> {
