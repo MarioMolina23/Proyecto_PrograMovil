@@ -69,4 +69,5 @@
     <string name="bt_web">www.bu-station.com</string>
     <string name="msg_mensaje">Hola, estoy realizando una App del Curso de Progra Móvil, es solo una prueba.</string>
 
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDSSWlsArpbPDQkY_NfyMhol00HirnrEEY</string>
 </resources>
