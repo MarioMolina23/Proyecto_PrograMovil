@@ -45,10 +45,6 @@ class Terminos : AppCompatActivity() {
                 startActivity(Intent(this, Historia::class.java))
                 true
             }
-            R.id.menu_terminos_uso -> {
-                startActivity(Intent(this, Terminos::class.java))
-                true
-            }
             R.id.cerrar_session -> {
                 Firebase.auth.signOut()
                 finish()

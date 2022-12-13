@@ -40,10 +40,6 @@ class Historia : AppCompatActivity() {
                 startActivity(Intent(this, Equipo::class.java))
                 true
             }
-            R.id.menu_historia -> {
-                startActivity(Intent(this, Historia::class.java))
-                true
-            }
             R.id.menu_terminos_uso -> {
                 startActivity(Intent(this, Terminos::class.java))
                 true

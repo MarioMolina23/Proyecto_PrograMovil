@@ -106,10 +106,6 @@ class Escribanos : AppCompatActivity() {
                 startActivity(Intent(this, Mapa_Google::class.java))
                 true
             }
-            R.id.menu_contacto -> {
-                startActivity(Intent(this, Escribanos::class.java))
-                true
-            }
             R.id.menu_acerca_de -> {
                 startActivity(Intent(this, AcercaDe::class.java))
                 true

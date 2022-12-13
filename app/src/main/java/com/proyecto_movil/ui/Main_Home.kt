@@ -22,10 +22,6 @@ class Main_Home : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.menu_home -> {
-                startActivity(Intent(this, Main_Home::class.java))
-                true
-            }
             R.id.menu_map -> {
                 startActivity(Intent(this, Mapa_Google::class.java))
                 true

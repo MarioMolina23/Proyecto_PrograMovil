@@ -13,8 +13,8 @@
         android:layout_height="match_parent"
         android:background="#00426E"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-76dp"
-        tools:layout_editor_absoluteY="102dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="40dp">
 
     </LinearLayout>
 
@@ -26,7 +26,7 @@
         android:fontFamily="casual"
         android:text="BUSTATION"
         android:textColor="#FFDD00"
-        android:textSize="20sp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -79,7 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="60dp"
-        android:text="+506 2206 8600"
+        android:text="+506 8606 8600"
         android:textColor="#FFDD00"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="60dp"
-        android:text="+506 8606 8600"
+        android:text="+506 2206 8600"
         android:textColor="#FFDD00"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"

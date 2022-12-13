@@ -58,10 +58,6 @@ class AcercaDe : AppCompatActivity() {
                 startActivity(Intent(this, Escribanos::class.java))
                 true
             }
-            R.id.menu_acerca_de -> {
-                startActivity(Intent(this, AcercaDe::class.java))
-                true
-            }
             R.id.menu_equipo -> {
                 startActivity(Intent(this, Equipo::class.java))
                 true

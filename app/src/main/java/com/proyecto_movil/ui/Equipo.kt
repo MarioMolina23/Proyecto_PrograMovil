@@ -85,10 +85,6 @@ class Equipo : AppCompatActivity() {
                 startActivity(Intent(this, AcercaDe::class.java))
                 true
             }
-            R.id.menu_equipo -> {
-                startActivity(Intent(this, Equipo::class.java))
-                true
-            }
             R.id.menu_historia -> {
                 startActivity(Intent(this, Historia::class.java))
                 true
