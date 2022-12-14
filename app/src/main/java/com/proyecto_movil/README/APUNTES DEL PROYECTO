@@ -3,8 +3,9 @@ FALTA:
     PERSONA CON EL ROL DE ADMINISTRADOR PUEDE VER ESTE COMENTARIO, EDITARLO Y BORRAR (CRUD)
     LINK DE VIDEO---> https://www.youtube.com/watch?v=--qfSJJqtV4&list=PLzDvEFuRQveDMaad7eFKenC_PXyAEKrDE&index=5 (MIN 3:20)
 
+2.
 ******************************ESTO YA ESTÁ*******************************
-*    2.  CREAR PANTALLA DE ESCRIBANOS Y QUE TRABAJE CON LA DE CONTACTO  *
+*       CREAR PANTALLA DE ESCRIBANOS Y QUE TRABAJE CON LA DE CONTACTO  *
 *        GENERAR HYPERVINCULOS A REDES SOCIALES Y WEB                   *
 *        PODER REALIZAR LA LLAMADA DIRECTAMENTE                         *
 *************************************************************************
@@ -12,9 +13,14 @@ FALTA:
 3.  GENERAR ROLES (ADMINISTRADOR Y CLIENTE)
     LINK DE VIDEO--->youtube.com/playlist?list=PLhcYacorV7U6NcxGCh7g1eGD_eQeqbyaH
 
-4.  VISUALIZAR EL GPS DEL BUS (SE SIMULA CON OTRO CELULAR).
-    PONER MAPA Y PODERLO VISUALIZAR
-    VER SI DATOS QUEMADOS DEL HOME, SEAN DATOS QUE EL ADMINISTRADOR PUEDA EDITAR (CRUD)
+4.
+*******************************SOBRE EL MAPA*********************************
+*   I. YA AGREGUE EL MAPA                                                   *
+*   II. VISUALIZA LA UBICACION EXACTA DE LA PERSONA QUE TENGA LA APP EN USO *
+*   III. BUSCAR LA FORMA DE VER LA UBICACION EXACTA DE OTRO USUARIO         *
+*   IV. VER SI DATOS QUEMADOS DEL HOME, SEAN DATOS QUE EL ADMINISTRADOR     *
+*      PUEDA EDITAR (CRUD)                                                  *
+*****************************************************************************
 
 5.  INTERNACIONALIZACIÓN.
     LA PANTALLA MAIN_HOME ES LA ÚNICA QUE TIENE LOS TEXTOS QUEMADOS, REVISAR ESTO.
