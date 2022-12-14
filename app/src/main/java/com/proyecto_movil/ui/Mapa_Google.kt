@@ -20,11 +20,10 @@ class Mapa_Google : AppCompatActivity(), OnMapReadyCallback {
     }
 
     private fun createMarker() {
-        val coordenadas = LatLng(28.044195,-16.5363842)
-        val marker = MarkerOptions().position(coordenadas).title("Mi playa favorita!")
-        map.addMarker(marker)
+        val favoritePlace = LatLng(9.933032, -84.035377)
+        map.addMarker(MarkerOptions().position(favoritePlace).title("Parada de buses Universidad!"))
         map.animateCamera(
-            CameraUpdateFactory.newLatLngZoom(coordenadas, 18f),
+            CameraUpdateFactory.newLatLngZoom(favoritePlace, 18f),
             4000,
             null
         )
@@ -32,7 +31,7 @@ class Mapa_Google : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_mapa_google)
         createMapFragment()
     }
 
