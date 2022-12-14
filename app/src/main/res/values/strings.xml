@@ -40,7 +40,7 @@
     <string name="equipo">Equipo</string>
     <string name="acerca_de">Acerca de</string>
     <string name="cerrar_sesion">Cerrar Sesión</string>
-    <string name="lenguaje">Cambiar Lenguaje</string>
+    <string name="rol">Administrador</string>
 
     <!-- Página historia-->
     <string name="tv_historia">La App BU-STATION nace gracias a la idea de 3 estudiantes de la Universidad Fidélitas en Costa Rica, donde en un proyecto a realizar en uno de sus cursos, se proponen diseñar la idea de mostrar la ruta de los buses en tiempo real, con el fin de ayudar a los usuario a ahorrarse tiempos de espera y así ayudarlos a tener un mejor uso de su tiempo.\n\nA raíz de esta idea, este grupo de personas, trabajan en el diseño de la aplicación por más de tres meses, donde compartiendo sus ideas y asesorados por una profesora, logran culminar este objetivo que llegó a traer un suspiro a todas aquellas personas.</string>

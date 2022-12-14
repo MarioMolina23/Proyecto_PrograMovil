@@ -55,9 +55,9 @@
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/internacionalizacion"
+        android:id="@+id/administrador"
         android:orderInCategory="100"
-        android:title="@string/lenguaje"
+        android:title="@string/rol"
         app:showAsAction="never" />
 
     <item

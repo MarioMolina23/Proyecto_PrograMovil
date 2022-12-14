@@ -9,12 +9,11 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.proyecto_movil.R
 
-class Main_Home : AppCompatActivity() {
+class Administrador : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_home)
+        setContentView(R.layout.activity_administrador)
     }
-
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.home, menu)
         return true
@@ -22,6 +21,10 @@ class Main_Home : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
+            R.id.menu_home -> {
+                startActivity(Intent(this, Main_Home::class.java))
+                true
+            }
             R.id.menu_map -> {
                 startActivity(Intent(this, Mapa_Google::class.java))
                 true
@@ -40,14 +43,6 @@ class Main_Home : AppCompatActivity() {
             }
             R.id.menu_historia -> {
                 startActivity(Intent(this, Historia::class.java))
-                true
-            }
-            R.id.menu_terminos_uso -> {
-                startActivity(Intent(this, Terminos::class.java))
-                true
-            }
-            R.id.administrador -> {
-                startActivity(Intent(this, Administrador::class.java))
                 true
             }
             R.id.cerrar_session -> {
