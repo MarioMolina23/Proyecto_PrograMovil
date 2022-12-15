@@ -9,6 +9,9 @@ import android.widget.Button
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.proyecto_movil.R
+import com.proyecto_movil.mapas.Bus_Escazu
+import com.proyecto_movil.mapas.Mapa_Google
+import com.proyecto_movil.mapas_ruta.Bus_Escazu_ruta
 
 class Parada_Escazu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +23,12 @@ class Parada_Escazu : AppCompatActivity() {
     private fun botones() {
         val btn_parada: Button = findViewById(R.id.busescazu_bt_parada)
         btn_parada.setOnClickListener{
-            val intent: Intent = Intent(this, Mapa_Google::class.java)
+            val intent: Intent = Intent(this, Bus_Escazu::class.java)
+            startActivity(intent)
+        }
+        val btn_ruta: Button = findViewById(R.id.busescazu_bt_ruta)
+        btn_ruta.setOnClickListener{
+            val intent: Intent = Intent(this, Bus_Escazu_ruta::class.java)
             startActivity(intent)
         }
     }

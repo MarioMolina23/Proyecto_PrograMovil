@@ -8,6 +8,7 @@ import android.view.MenuItem
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.proyecto_movil.R
+import com.proyecto_movil.mapas.Mapa_Google
 
 class Historia : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

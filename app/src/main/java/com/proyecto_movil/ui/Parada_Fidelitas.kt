@@ -9,6 +9,10 @@ import android.widget.Button
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.proyecto_movil.R
+import com.proyecto_movil.mapas.Bus_Fidelitas
+import com.proyecto_movil.mapas.Mapa_Google
+import com.proyecto_movil.mapas_ruta.Bus_Escazu_ruta
+import com.proyecto_movil.mapas_ruta.Bus_Fide_ruta
 
 class Parada_Fidelitas : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +24,12 @@ class Parada_Fidelitas : AppCompatActivity() {
     private fun botones() {
         val btn_parada: Button = findViewById(R.id.busfide_bt_parada)
         btn_parada.setOnClickListener{
-            val intent: Intent = Intent(this, Mapa_Google::class.java)
+            val intent: Intent = Intent(this, Bus_Fidelitas::class.java)
+            startActivity(intent)
+        }
+        val btn_ruta: Button = findViewById(R.id.busfide_bt_ruta)
+        btn_ruta.setOnClickListener{
+            val intent: Intent = Intent(this, Bus_Fide_ruta::class.java)
             startActivity(intent)
         }
     }

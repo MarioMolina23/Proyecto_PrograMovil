@@ -9,6 +9,7 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.proyecto_movil.R
 import com.proyecto_movil.databinding.ActivityAdministradorBinding
+import com.proyecto_movil.mapas.Mapa_Google
 
 class Administrador : AppCompatActivity() {
     private var _binding: ActivityAdministradorBinding? = null

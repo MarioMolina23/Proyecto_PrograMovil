@@ -1,4 +1,4 @@
-package com.proyecto_movil.ui
+package com.proyecto_movil.mapas
 
 import android.Manifest
 import android.content.Intent
@@ -21,6 +21,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.proyecto_movil.R
+import com.proyecto_movil.ui.*
 
 class Mapa_Google : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLocationButtonClickListener, GoogleMap.OnMyLocationClickListener {
 
@@ -39,9 +40,9 @@ class Mapa_Google : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLocat
     }
 
     private fun createMarker() {
-        val favoritePlace = LatLng(9.933032, -84.035377)
-        val m = map.addMarker(MarkerOptions().position(favoritePlace).title("Parada de buses Universidad!"))
-        m!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
+        val favoritePlace = LatLng(9.94410556933658, -84.05452115538515)
+        val m = map.addMarker(MarkerOptions().position(favoritePlace).title("Su ubicación actual"))
+        m!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.location_person))
         map.animateCamera(
             CameraUpdateFactory.newLatLngZoom(favoritePlace, 18f),
             4000,
@@ -81,7 +82,8 @@ class Mapa_Google : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLocat
         } else {
             ActivityCompat.requestPermissions(this,
                 arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
-                REQUEST_CODE_LOCATION)
+                REQUEST_CODE_LOCATION
+            )
         }
     }
     override fun onRequestPermissionsResult(

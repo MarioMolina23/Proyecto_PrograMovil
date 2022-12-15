@@ -10,6 +10,7 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.proyecto_movil.R
 import com.proyecto_movil.databinding.ActivityEquipoBinding
+import com.proyecto_movil.mapas.Mapa_Google
 import com.proyecto_movil.viewadapter.ViewPagerAdapter
 import me.relex.circleindicator.CircleIndicator3
 
