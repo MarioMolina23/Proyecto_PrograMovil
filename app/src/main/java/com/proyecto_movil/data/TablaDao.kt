@@ -7,20 +7,20 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.proyecto_movil.model.Contacto
+import com.proyecto_movil.model.Tabla
 
 @Dao
-interface ContactoDao {
+interface TablaDao {
 
-    @Query ("SELECT * FROM CONTACTO")
-    fun getAllData(): LiveData<List<Contacto>> //Revisar
+    @Query ("SELECT * FROM TABLA")
+    fun getAllData(): LiveData<List<Tabla>> //Revisar
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun addContacto(contacto: Contacto)
+    suspend fun addTabla(tabla: Tabla)
 
     @Update(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun updateContacto(contacto: Contacto)
+    suspend fun updateTabla(tabla: Tabla)
 
     @Delete
-    suspend fun deleteContacto(contacto: Contacto)
+    suspend fun deleteTabla(tabla: Tabla)
 }

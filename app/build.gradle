@@ -8,6 +8,7 @@ plugins {
 
 apply plugin: 'kotlin-kapt'
 
+
 //Enlace directo entre la vista (xmls) y el código
 android.buildFeatures.viewBinding true
 
@@ -53,6 +54,10 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
+    implementation 'androidx.navigation:navigation-dynamic-features-fragment:2.5.3'
+
+
+    implementation 'androidx.room:room-common:2.4.3'
     //implementation 'com.google.firebase:firebase-common-ktx:20.2.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'

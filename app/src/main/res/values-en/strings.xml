@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BUSTATION</string>
+    <string name="tv_correo">Email</string>
+    <string name="tv_clave">Email</string>
+    <string name="tv_titulo_inicio">BUSTATION</string>
+
+    <!--Página de Inicio-->
+    <string name="bt_inicio_sesion">Login</string>
+    <string name="bt_registrar">Sign up</string>
+    <string name="tv_slogan_inicio">Plan exactly the time of your next trip!</string>
+    <string name="tv_texto_inicio">Save time knowing the route of the public buses in Costa Rica. This app will allow you to know in real time the location of the bus that you need to know. Join us!</string>
+
+    <!--Página de inicio de sesión-->
+    <string name="bt_iniciar_sesion">Login</string>
+    <string name="bt_registrate">Sign up</string>
+    <string name="tv_no_tienes_cuenta">Dont have an account?</string>
+    <string name="tv_inicio_sesionMayuscula">LOGÍN</string>
+    <string name="ph_correo">Email</string>
+    <string name="ph_contrasena">Password</string>
+
+    <!--Página de registrarse-->
+    <string name="tv_crearcuenta">Create account</string>
+    <string name="bt_cancelar">Cancel</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Página Home-->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="contacto">Contac</string>
+    <string name="historia">History</string>
+    <string name="terminos_uso">Terms of use</string>
+    <string name="equipo">Team</string>
+    <string name="acerca_de">About us</string>
+    <string name="cerrar_sesion">Sign off</string>
+    <string name="rol">Admin</string>
+
+    <!-- Página historia-->
+    <string name="tv_historia">The BU-STATION App was born thanks to the idea of 3 students from the Fidélitas University in Costa Rica, where in a project to be carried out in one of their courses, they propose to design the idea of showing the bus route in real time, with in order to help users save waiting times and thus help them make better use of their time.\n\nAs a result of this idea, this group of people worked on the design of the application for more than three months , where sharing their ideas and advised by a teacher, they manage to complete this objective that brought a sigh to all those people.</string>
+    <string name="tv_historia_titulo">Historia</string>
+
+    <!-- Página términos-->
+    <string name="tv_terminos">The owner reserves the right to make any type of modification to the website at any time and without prior notice, the user accepts said modifications.\n\nThis describes the terms and conditions applicable to the use of the content, products and/or services of the &quot;BU-STATION&quot; website and app. To make use of the content, products and/or services of the website, the user must be subject to these terms and conditions.\n</string>
+    <string name="tv_terminos_titulo">Términos de Uso</string>
+
+    <!-- Página contacto-->
+    <string name="tv_contacto">The owner reserves the right to make any type of modification to the website at any time and without prior notice, the user accepts said modifications.\n\nThis describes the terms and conditions applicable to the use of the content, products and/or services of the &quot;BU-STATION&quot; website and app. To make use of the content, products and/or services of the website, the user must be subject to these terms and conditions.\n</string>
+    <string name="tv_contacto_titulo">Contact us</string>
+    <string name="tv_contacto_nombre">Name:</string>
+    <string name="tv_contacto_comentario">Coment:</string>
+    <string name="tv_contacto_enviar">SEND</string>
+
+    <!-- Página equipo-->
+    <string name="tv_desc_Mario">Neighbor of Guadalupe, San José. He is in his second year of degree in systems engineering. He really likes everything that he has to do with technology, because he understands that it is a means that helps human beings to have a better quality of life and also to be a better person.</string>
+    <string name="tv_desc_Christian">Edit...</string>
+    <string name="tv_equipo_titulo">Team</string>
+
+    <!--Página escribanos-->
+    <string name="bt_escribanos">Write U.S</string>
+    <string name="bt_facebook">BU-STATION</string>
+    <string name="bt_instagram">bu-station_cr</string>
+    <string name="bt_web">www.bu-station.com</string>
+    <string name="msg_mensaje">Hola, estoy realizando una App del Curso de Progra Móvil, es solo una prueba.</string>
+
+    msg_lugar_added
+    <!--Página para añadir datos de buses-->
+    <string name="msg_bus">Bus</string>
+    <string name="msg_precio">Price</string>
+    <string name="msg_dias">Days</string>
+    <string name="msg_horario">Schedule</string>
+    <string name="msg_descripcion">Description</string>
+    <string name="msg_agregar_bus">Add Bus</string>
+    <string name="msg_bus_added">Bus added…</string>
+    <string name="bt_update_bus">Update Bus</string>
+    <string name="msg_bus_updated">Bus updated…</string>
+    <string name="msg_data">Missing data!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

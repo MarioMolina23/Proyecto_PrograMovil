@@ -1,6 +1,6 @@
 <resources>
     <!--Generales-->
-    <string name="app_name">BUSTATION</string>
+    <string name="app_name" translatable="false">BUSTATION</string>
     <string name="tv_correo">Email</string>
     <string name="tv_clave">Email</string>
     <string name="tv_titulo_inicio">BUSTATION</string>
@@ -68,5 +68,21 @@
     <string name="bt_instagram">bu-station_cr</string>
     <string name="bt_web">www.bu-station.com</string>
     <string name="msg_mensaje">Hola, estoy realizando una App del Curso de Progra Móvil, es solo una prueba.</string>
+
+    msg_lugar_added
+    <!--Página para añadir datos de buses-->
+    <string name="msg_bus">Bus</string>
+    <string name="msg_precio">Precio</string>
+    <string name="msg_dias">Días</string>
+    <string name="msg_horario">Horario</string>
+    <string name="msg_descripcion">Descripción</string>
+    <string name="msg_agregar_bus">Agregar Bus</string>
+    <string name="msg_bus_added">Bus agregado…</string>
+    <string name="bt_update_bus">Actualizar Bus</string>
+    <string name="msg_bus_updated">Bus actualizado…</string>
+    <string name="msg_data">Faltan datos!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

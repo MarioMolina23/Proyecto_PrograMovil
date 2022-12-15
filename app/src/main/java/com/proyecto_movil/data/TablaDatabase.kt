@@ -1,21 +1,19 @@
 package com.proyecto_movil.data
 
-import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.proyecto_movil.model.Contacto
+import com.proyecto_movil.model.Tabla
 
-@Database(entities = [Contacto::class],version=1, exportSchema = false)
-abstract class ContactoDatabase: RoomDatabase() {
-
-    abstract fun contactoDao() : ContactoDao
+@Database(entities = [Tabla::class],version=1, exportSchema = false)
+abstract class TablaDatabase: RoomDatabase() {
+    abstract fun tablaDao() : TablaDao
 
     companion object {
         @Volatile
-        private var INSTANCE: ContactoDatabase? = null
+        private var INSTANCE: TablaDatabase? = null
 
-        fun getDatabase(context: android.content.Context) : ContactoDatabase {
+        fun getDatabase(context: android.content.Context) : TablaDatabase {
             val tempInstance = INSTANCE
             if (tempInstance != null){
                 return tempInstance
@@ -23,8 +21,8 @@ abstract class ContactoDatabase: RoomDatabase() {
                 synchronized(this){
                     val instance = Room.databaseBuilder(
                         context.applicationContext,
-                        ContactoDatabase::class.java,
-                        "contacto_database"
+                        TablaDatabase::class.java,
+                        "tabla_database"
                     ).build()
                     INSTANCE = instance
                     return instance
