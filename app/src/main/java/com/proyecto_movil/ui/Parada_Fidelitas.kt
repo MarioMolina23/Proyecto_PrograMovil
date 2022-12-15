@@ -29,7 +29,7 @@ class Parada_Fidelitas : AppCompatActivity() {
         }
         val btn_ruta: Button = findViewById(R.id.busfide_bt_ruta)
         btn_ruta.setOnClickListener{
-            val intent: Intent = Intent(this, Bus_Fide_ruta::class.java)
+            val intent: Intent = Intent(this, Bus_Fidelitas::class.java)
             startActivity(intent)
         }
     }
@@ -43,6 +43,10 @@ class Parada_Fidelitas : AppCompatActivity() {
         return when (item.itemId) {
             R.id.menu_map -> {
                 startActivity(Intent(this, Mapa_Google::class.java))
+                true
+            }
+            R.id.menu_home -> {
+                startActivity(Intent(this, Main_Home::class.java))
                 true
             }
             R.id.menu_contacto -> {

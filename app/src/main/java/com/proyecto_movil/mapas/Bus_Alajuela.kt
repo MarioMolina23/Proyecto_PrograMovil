@@ -40,6 +40,10 @@ class Bus_Alajuela : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoca
     }
 
     private fun createMarker() {
+        val ida = LatLng(10.007243945039894, -84.21206700361981)
+        val a = map.addMarker(MarkerOptions().position(ida).title("Parada de buses Tuasa"))
+        a!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
+
         val favoritePlace = LatLng(9.934144434066688, -84.08447459259926)
         val m = map.addMarker(MarkerOptions().position(favoritePlace).title("Parada de buses Tuasa"))
         m!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))

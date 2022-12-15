@@ -45,6 +45,10 @@ class Parada_Alajuela : AppCompatActivity() {
                 startActivity(Intent(this, Mapa_Google::class.java))
                 true
             }
+            R.id.menu_home -> {
+                startActivity(Intent(this, Main_Home::class.java))
+                true
+            }
             R.id.menu_contacto -> {
                 startActivity(Intent(this, Escribanos::class.java))
                 true

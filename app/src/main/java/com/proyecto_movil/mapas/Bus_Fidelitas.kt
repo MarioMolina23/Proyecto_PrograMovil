@@ -40,6 +40,24 @@ class Bus_Fidelitas : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoc
     }
 
     private fun createMarker() {
+        val idaA = LatLng(9.935421010641962, -84.05063217531296)
+        val a = map.addMarker(MarkerOptions().position(idaA).title("Parada de buses FIDELITAS"))
+        a!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
+
+        val idaB = LatLng(9.931286289405199, -84.03654645114159)
+        val b = map.addMarker(MarkerOptions().position(idaB).title("Parada de buses FIDELITAS"))
+        b!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
+
+        val idaC = LatLng(9.932505346370446, -84.04011891741148)
+        val c = map.addMarker(MarkerOptions().position(idaC).title("Parada de buses FIDELITAS"))
+        c!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
+
+        val idaD = LatLng(9.933397642949082, -84.04321930779912)
+        val d = map.addMarker(MarkerOptions().position(idaD).title("Parada de buses FIDELITAS"))
+        d!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
+
+
+
         val favoritePlace = LatLng(9.933032, -84.035377)
         val m = map.addMarker(MarkerOptions().position(favoritePlace).title("Parada de buses Universidad!"))
         m!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
@@ -111,7 +129,7 @@ class Bus_Fidelitas : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoc
     }
 
     override fun onMyLocationButtonClick(): Boolean {
-        Toast.makeText(this, "Boton pulsado", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Bus de Fidélitas", Toast.LENGTH_SHORT).show()
         return false
     }
 
