@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.Equipo"
-    android:orientation="vertical"
     android:background="#00426E"
-    android:padding="0dp">
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context=".ui.Equipo">
 
     <me.relex.circleindicator.CircleIndicator3
         android:id="@+id/indicator"
@@ -21,8 +20,8 @@
         android:id="@+id/view_pager2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:layout_above="@id/indicator"/>
+        android:layout_above="@id/indicator"
+        android:layout_centerInParent="true" />
 
     <TextView
         android:id="@+id/tv_bustation_terminos2"

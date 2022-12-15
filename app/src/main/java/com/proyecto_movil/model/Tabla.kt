@@ -11,14 +11,10 @@ import kotlinx.parcelize.Parcelize
 data class Tabla(
     @PrimaryKey(autoGenerate = true)
     val id: Int,
-    @ColumnInfo(name="bus")
-    val bus: String?,
-    @ColumnInfo(name="precio")
-    val precio: Int?,
-    @ColumnInfo(name="dias")
-    val dias: String?,
-    @ColumnInfo(name="horario")
-    val horario: String?,
-    @ColumnInfo(name="descripcion")
-    val descripcion: String?
+    @ColumnInfo(name="nombre")
+    val nombre: String?,
+    @ColumnInfo(name="mail")
+    val mail: String?,
+    @ColumnInfo(name="comentario")
+    val comentario: String?
 ) : Parcelable

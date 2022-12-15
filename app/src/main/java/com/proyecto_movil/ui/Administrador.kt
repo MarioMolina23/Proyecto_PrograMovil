@@ -57,7 +57,8 @@ class Administrador : AppCompatActivity() {
                 Toast.LENGTH_SHORT
             ).show()
         }
-    }*/
+    }
+    */
 
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

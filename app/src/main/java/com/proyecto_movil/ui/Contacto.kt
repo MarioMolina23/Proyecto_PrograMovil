@@ -5,15 +5,52 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
 import com.proyecto_movil.R
+import com.proyecto_movil.databinding.ActivityContactoBinding
+import com.proyecto_movil.model.Tabla
 
 class Contacto : AppCompatActivity() {
+
+    private lateinit var binding : ActivityContactoBinding
+    private lateinit var database : DatabaseReference
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_contacto)
+        binding = ActivityContactoBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+
+        binding.btEnviar.setOnClickListener {
+
+            val nombre = binding.etNombre.text.toString()
+            val mail = binding.etMailcontacto.text.toString()
+            val comentario = binding.etComentario.text.toString()
+
+            database = FirebaseDatabase.getInstance().getReference("Users")
+            val User = Tabla(0,nombre, mail, comentario)
+            database.child(nombre).setValue(User).addOnSuccessListener {
+
+                binding.etNombre.text.clear()
+                binding.etMailcontacto.text.clear()
+                binding.etComentario.text.clear()
+
+                Toast.makeText(this, "Comentario enviado satisfactoriamente", Toast.LENGTH_SHORT).show()
+
+            }.addOnFailureListener {
+
+                Toast.makeText(this, "Falló", Toast.LENGTH_SHORT).show()
+
+            }
+        }
+
     }
+
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.home, menu)
         return true
