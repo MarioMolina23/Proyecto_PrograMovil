@@ -25,6 +25,13 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".ui.Main_Home"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ui.Mapa_Google"
             android:exported="false">
             <meta-data
@@ -74,7 +81,28 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.Main_Home"
+            android:name=".ui.Parada_Periferica"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.Parada_Escazu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.Parada_Alajuela"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ui.Parada_Fidelitas"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

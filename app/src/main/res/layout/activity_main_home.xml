@@ -26,59 +26,29 @@
             app:srcCompat="@drawable/busparada" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/tv_titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Horario: 5am - 9pm"
-            android:textColor="#000000"
-            android:textSize="15sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.904"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.354" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
             android:fontFamily="sans-serif-smallcaps"
-            android:text="Periférica 1"
+            android:text="@string/main_msg_titulo"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="40sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.116"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.356" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/tv_dias"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Precio: ₡500"
+            android:text="@string/main_msg_info"
             android:textColor="#000000"
-            android:textSize="15sp"
+            android:textSize="21sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.107"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.421" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:text="Días de operación: Todos los días"
-            android:textColor="#000000"
-            android:textSize="15sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.185"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.481" />
@@ -97,57 +67,56 @@
             app:layout_constraintTop_toTopOf="@+id/imageView4"
             app:layout_constraintVertical_bias="0.539" />
 
-        <TextView
-            android:id="@+id/descripcion"
-            android:layout_width="307dp"
-            android:layout_height="139dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:background="#E3E3E3"
-            android:backgroundTint="#DDDDDD"
-            android:padding="10dp"
-            android:paddingStart="10dp"
-            android:paddingLeft="10dp"
-            android:paddingTop="10dp"
-            android:paddingEnd="10dp"
-
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
-            android:text="El autobús PERIFÉRICA L1 (Terminal Hatillo 2, Centro de Reciclaje Municipal > Terminal Hatillo 2, Centro de Reciclaje Municipal) es  una línea circular con 72 paradas, comenzando en Hatillo 2,  Centro de Reciclaje Municipal. "
-            android:textAlignment="viewStart"
-            android:textColor="#2B2B2B"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+        <Button
+            android:id="@+id/bt_peri"
+            android:layout_width="138dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="85dp"
+            android:backgroundTint="#0D47A1"
+            android:text="@string/main_bt_periferica"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.811" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Descripción:"
-            android:textColor="#000000"
-            android:textSize="19sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.111"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/imageView4"
-            app:layout_constraintVertical_bias="0.6" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_dias" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/bt_escazu"
+            android:layout_width="138dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="30dp"
             android:backgroundTint="#0D47A1"
-            android:text="Consultar Rutas"
+            android:text="@string/main_bt_escazu"
             android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.951" />
+            app:layout_constraintTop_toBottomOf="@+id/bt_fidelitas" />
 
+        <Button
+            android:id="@+id/bt_alajuela"
+            android:layout_width="138dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="#0D47A1"
+            android:text="@string/main_bt_alajuela"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_peri" />
+
+        <Button
+            android:id="@+id/bt_fidelitas"
+            android:layout_width="138dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="#0D47A1"
+            android:text="@string/main_bt_fidelitas"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dias" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

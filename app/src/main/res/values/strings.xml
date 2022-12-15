@@ -85,4 +85,46 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!--Página de paradas-->
+    <string name="bus_bt_ruta">Ver Ruta Actual</string>
+    <string name="bus_bt_parada">Consultar Parada</string>
+    <string name="main_msg_titulo">BIENVENIDO</string>
+    <string name="main_msg_info">Consulte la ruta del bus que desee</string>
+    <string name="main_bt_periferica">Periferica</string>
+    <string name="main_bt_escazu">Escazú</string>
+    <string name="main_bt_alajuela">Alajuela</string>
+    <string name="main_bt_fidelitas">Fidélitas</string>
+
+    <!--Periferica-->
+    <string name="busperi_msg_titulo">Periférica 1</string>
+    <string name="busperi_msg_hora">Horario: 5am - 9pm</string>
+    <string name="busperi_precio">Precio: ₡500</string>
+    <string name="busperi_dias_operacion">Días de operación: Todos los días</string>
+    <string name="busperi_descripcion">Descripción:</string>
+    <string name="busperi_descripcion_info">El autobús PERIFÉRICA L1 (Terminal Hatillo 2, Centro de Reciclaje Municipal > Terminal Hatillo 2, Centro de Reciclaje Municipal) es  una línea circular con 72 paradas, comenzando en Hatillo 2,  Centro de Reciclaje Municipal.</string>
+
+    <!--Escazu-->
+    <string name="busescazu_msg_titulo">Escazú</string>
+    <string name="busescazu_msg_hora">Horario: 5am - 9pm</string>
+    <string name="busescazu_precio">Precio: ₡1500</string>
+    <string name="busescazu_dias_operacion">Días de operación: Todos los días</string>
+    <string name="busescazu_descripcion">Descripción:</string>
+    <string name="busescazu_descripcion_info">El autobús Escazú (Terminal Hatillo 2, Centro de Reciclaje Municipal > Terminal Hatillo 2, Centro de Reciclaje Municipal) es  una línea circular con 72 paradas, comenzando en Hatillo 2,  Centro de Reciclaje Municipal.</string>
+
+    <!--Alajuela-->
+    <string name="busalajuela_msg_titulo">Tuasa Alajuela</string>
+    <string name="busalajuela_msg_hora">Horario: 5am - 9pm</string>
+    <string name="busalajuela_precio">Precio: ₡800</string>
+    <string name="busalajuela_dias_operacion">Días de operación: Todos los días</string>
+    <string name="busalajuela_descripcion">Descripción:</string>
+    <string name="busalajuela_descripcion_info">El autobús TUASA (Terminal Hatillo 2, Centro de Reciclaje Municipal > Terminal Hatillo 2, Centro de Reciclaje Municipal) es  una línea circular con 72 paradas, comenzando en Hatillo 2,  Centro de Reciclaje Municipal.</string>
+
+    <!--Fidélitas-->
+    <string name="busfide_msg_titulo">Bus de la Fidélitas</string>
+    <string name="busfide_msg_hora">Horario: 5am - 9pm</string>
+    <string name="busfide_precio">Precio: ₡300</string>
+    <string name="busfide_dias_operacion">Días de operación: Lunes a Viernes</string>
+    <string name="busfide_descripcion">Descripción:</string>
+    <string name="busfide_descripcion_info">El autobús FIDELITAS (Terminal Hatillo 2, Centro de Reciclaje Municipal > Terminal Hatillo 2, Centro de Reciclaje Municipal) es  una línea circular con 72 paradas, comenzando en Hatillo 2,  Centro de Reciclaje Municipal.</string>
+
 </resources>

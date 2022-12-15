@@ -54,7 +54,7 @@ class Registrarse : AppCompatActivity() {
 
     private fun actualiza(user: FirebaseUser?) {
         if (user != null) {
-            val intent = Intent(this, Main_Home::class.java)
+            val intent = Intent(this, Parada_Periferica::class.java)
             startActivity(intent)
         }
     }

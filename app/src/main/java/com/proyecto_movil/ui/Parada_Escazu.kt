@@ -10,33 +10,17 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.proyecto_movil.R
 
-class Main_Home : AppCompatActivity() {
+class Parada_Escazu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_home)
-
+        setContentView(R.layout.activity_parada_escazu)
         botones(); //Se llama a la función de los botones
     }
 
     private fun botones() {
-        val btn_parada_peri: Button = findViewById(R.id.bt_peri)
-        btn_parada_peri.setOnClickListener{
-            val intent: Intent = Intent(this, Parada_Periferica::class.java)
-            startActivity(intent)
-        }
-        val btn_parada_escazu: Button = findViewById(R.id.bt_escazu)
-        btn_parada_escazu.setOnClickListener{
-            val intent: Intent = Intent(this, Parada_Escazu::class.java)
-            startActivity(intent)
-        }
-        val btn_parada_alajuela: Button = findViewById(R.id.bt_alajuela)
-        btn_parada_alajuela.setOnClickListener{
-            val intent: Intent = Intent(this, Parada_Alajuela::class.java)
-            startActivity(intent)
-        }
-        val btn_parada_fide: Button = findViewById(R.id.bt_fidelitas)
-        btn_parada_fide.setOnClickListener{
-            val intent: Intent = Intent(this, Parada_Fidelitas::class.java)
+        val btn_parada: Button = findViewById(R.id.busescazu_bt_parada)
+        btn_parada.setOnClickListener{
+            val intent: Intent = Intent(this, Mapa_Google::class.java)
             startActivity(intent)
         }
     }
@@ -48,10 +32,6 @@ class Main_Home : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.menu_historia -> {
-                startActivity(Intent(this, Historia::class.java))
-                true
-            }
             R.id.menu_map -> {
                 startActivity(Intent(this, Mapa_Google::class.java))
                 true
@@ -66,6 +46,10 @@ class Main_Home : AppCompatActivity() {
             }
             R.id.menu_equipo -> {
                 startActivity(Intent(this, Equipo::class.java))
+                true
+            }
+            R.id.menu_historia -> {
+                startActivity(Intent(this, Historia::class.java))
                 true
             }
             R.id.menu_terminos_uso -> {

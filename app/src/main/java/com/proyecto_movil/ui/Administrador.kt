@@ -5,17 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
-import androidx.core.content.ContentProviderCompat.requireContext
-import androidx.core.content.ContextCompat.startActivity
-import androidx.navigation.Navigation.findNavController
-import androidx.navigation.fragment.findNavController
-import androidx.room.ColumnInfo
-import androidx.room.PrimaryKey
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.proyecto_movil.R
-import com.proyecto_movil.model.Tabla
 import com.proyecto_movil.databinding.ActivityAdministradorBinding
 
 class Administrador : AppCompatActivity() {
@@ -64,7 +56,7 @@ class Administrador : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.menu_home -> {
-                startActivity(Intent(this, Main_Home::class.java))
+                startActivity(Intent(this, Parada_Periferica::class.java))
                 true
             }
             R.id.menu_map -> {

@@ -4,17 +4,18 @@ import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.location.Location
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.firebase.auth.ktx.auth
@@ -39,7 +40,8 @@ class Mapa_Google : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLocat
 
     private fun createMarker() {
         val favoritePlace = LatLng(9.933032, -84.035377)
-        map.addMarker(MarkerOptions().position(favoritePlace).title("Parada de buses Universidad!"))
+        val m = map.addMarker(MarkerOptions().position(favoritePlace).title("Parada de buses Universidad!"))
+        m!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
         map.animateCamera(
             CameraUpdateFactory.newLatLngZoom(favoritePlace, 18f),
             4000,
