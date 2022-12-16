@@ -45,10 +45,6 @@ class Historia : AppCompatActivity() {
                 startActivity(Intent(this, Terminos::class.java))
                 true
             }
-            R.id.administrador -> {
-                startActivity(Intent(this, Administrador::class.java))
-                true
-            }
             R.id.cerrar_session -> {
                 Firebase.auth.signOut()
                 finish()

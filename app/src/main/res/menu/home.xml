@@ -55,12 +55,6 @@
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/administrador"
-        android:orderInCategory="100"
-        android:title="@string/rol"
-        app:showAsAction="never" />
-
-    <item
         android:id="@+id/cerrar_session"
         android:orderInCategory="100"
         android:title="@string/cerrar_sesion"

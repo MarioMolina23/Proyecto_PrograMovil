@@ -134,10 +134,6 @@ class Bus_Fide_ruta : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoc
                 startActivity(Intent(this, Historia::class.java))
                 true
             }
-            R.id.administrador -> {
-                startActivity(Intent(this, Administrador::class.java))
-                true
-            }
             R.id.cerrar_session -> {
                 Firebase.auth.signOut()
                 finish()

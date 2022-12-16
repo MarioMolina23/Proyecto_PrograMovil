@@ -40,7 +40,7 @@ class Bus_Fidelitas : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoc
     }
 
     private fun createMarker() {
-        val idaA = LatLng(9.935421010641962, -84.05063217531296)
+        val idaA = LatLng(9.932309087164043, -84.04513976533597)
         val a = map.addMarker(MarkerOptions().position(idaA).title("Parada de buses FIDELITAS"))
         a!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
 
@@ -55,6 +55,26 @@ class Bus_Fidelitas : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoc
         val idaD = LatLng(9.933397642949082, -84.04321930779912)
         val d = map.addMarker(MarkerOptions().position(idaD).title("Parada de buses FIDELITAS"))
         d!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
+
+        val idaE = LatLng(9.930740444902737, -84.04583307972696)
+        val e = map.addMarker(MarkerOptions().position(idaE).title("Parada de buses FIDELITAS"))
+        e!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
+
+        val idaF = LatLng(9.931987476564174, -84.05058595409115)
+        val f = map.addMarker(MarkerOptions().position(idaF).title("Parada de buses FIDELITAS"))
+        f!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
+
+        val idaG = LatLng(9.932706102835455, -84.05696961152017)
+        val g = map.addMarker(MarkerOptions().position(idaG).title("Parada de buses FIDELITAS"))
+        g!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
+
+        val idaH = LatLng(9.932082588949042, -84.06540247665126)
+        val h = map.addMarker(MarkerOptions().position(idaH).title("Parada de buses FIDELITAS"))
+        h!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
+
+        val idaI = LatLng(9.934365278019627, -84.06844946614639)
+        val i = map.addMarker(MarkerOptions().position(idaI).title("Parada de buses FIDELITAS"))
+        i!!.setIcon(BitmapDescriptorFactory.fromResource(com.proyecto_movil.R.drawable.image_parada_bus))
 
 
 
@@ -166,10 +186,6 @@ class Bus_Fidelitas : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLoc
             }
             R.id.menu_historia -> {
                 startActivity(Intent(this, Historia::class.java))
-                true
-            }
-            R.id.administrador -> {
-                startActivity(Intent(this, Administrador::class.java))
                 true
             }
             R.id.cerrar_session -> {
