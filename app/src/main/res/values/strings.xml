@@ -109,7 +109,7 @@
     <string name="busescazu_precio">Precio: ₡1500</string>
     <string name="busescazu_dias_operacion">Días de operación: Todos los días</string>
     <string name="busescazu_descripcion">Descripción:</string>
-    <string name="busescazu_descripcion_info">El autobús Escazú (Terminal Hatillo 2, Centro de Reciclaje Municipal > Terminal Hatillo 2, Centro de Reciclaje Municipal) es  una línea circular con 72 paradas, comenzando en Hatillo 2,  Centro de Reciclaje Municipal.</string>
+    <string name="busescazu_descripcion_info">La línea SAN JOSÉ - ESCAZÚ CENTRO de autobús (Terminal Escazú, Costado Norte Parque Escazú → Terminal San José, Parque Ministerio De La Salud) tiene 16 paradas desde Terminal Escazú, Costado Norte Parque Escazú hasta Terminal San José, Parque Ministerio De La Salud.</string>
 
     <!--Alajuela-->
     <string name="busalajuela_msg_titulo">Tuasa Alajuela</string>
@@ -117,7 +117,7 @@
     <string name="busalajuela_precio">Precio: ₡800</string>
     <string name="busalajuela_dias_operacion">Días de operación: Todos los días</string>
     <string name="busalajuela_descripcion">Descripción:</string>
-    <string name="busalajuela_descripcion_info">El autobús TUASA (Terminal Hatillo 2, Centro de Reciclaje Municipal > Terminal Hatillo 2, Centro de Reciclaje Municipal) es  una línea circular con 72 paradas, comenzando en Hatillo 2,  Centro de Reciclaje Municipal.</string>
+    <string name="busalajuela_descripcion_info">La línea SAN JOSÉ - ALAJUELA COLECTIVO de autobús (Terminal Tuasa Alajuela → Terminal Tuasa San José Station Wagon) tiene 32 paradas desde Terminal Tuasa Alajuela hasta Terminal Tuasa San José Station Wagon.</string>
 
     <!--Fidélitas-->
     <string name="busfide_msg_titulo">Bus de la Fidélitas</string>
@@ -125,6 +125,6 @@
     <string name="busfide_precio">Precio: ₡300</string>
     <string name="busfide_dias_operacion">Días de operación: Lunes a Viernes</string>
     <string name="busfide_descripcion">Descripción:</string>
-    <string name="busfide_descripcion_info">El autobús FIDELITAS (Terminal Hatillo 2, Centro de Reciclaje Municipal > Terminal Hatillo 2, Centro de Reciclaje Municipal) es  una línea circular con 72 paradas, comenzando en Hatillo 2,  Centro de Reciclaje Municipal.</string>
+    <string name="busfide_descripcion_info">La línea SAN JOSÉ - SAN PEDRO - GRANADILLA (Universidad Fidelitas) de autobús (Terminal San José → Terminal Urb. Mansiones, Cercanías Club Campestre La Campiña) tiene 33 paradas desde Terminal San José hasta Terminal Urb. Mansiones, Cercanías Club Campestre La Campiña.</string>
 
 </resources>
